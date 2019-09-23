@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+   >
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:padding="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnConverterFunction"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Converter"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="120dp"
+            android:padding="20dp"
+            android:textColor="#ffff"
+            />
+
+        <Button
+            android:id="@+id/btnCalculatorFunction"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Calculator"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="120dp"
+
+            android:padding="20dp"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnGradeFunction"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+
+            android:text="Grade"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:textColor="#ffff"
+
+            />
+
+        <Button
+            android:id="@+id/btnSomeFunction"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:text="Some"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
