@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConvertCurrencyActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etCurrencyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Currency"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/rgCurrencyConversionTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbTakatoUSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taka to Us Dollar"/>
+
+        <RadioButton
+            android:id="@+id/rbTakatoRupee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taka to Indian Rupee"/>
+
+
+        <RadioButton
+            android:id="@+id/rbUSDtoTaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Us Dollar to Taka"/>
+
+        <RadioButton
+            android:id="@+id/rbRupeetoTaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indian Rupee to Taka"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConvertCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        />
+
+    <TextView
+        android:id="@+id/tvCurrencyConvertedResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result:"/>
+
+</LinearLayout>
