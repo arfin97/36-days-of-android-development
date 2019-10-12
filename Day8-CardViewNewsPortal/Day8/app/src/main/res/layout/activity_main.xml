@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="240dp"
+                            android:src="@drawable/image2"
+                            android:scaleType="fitXY"
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ইউটিউবের প্রতিদ্বন্দ্বী আনছে রাশিয়া"
+                            android:textSize="20sp"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:background="#6001000a"
+                            android:layout_alignParentBottom="true"
+                            />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFF"
+
+                        android:text="29 Sept, 2019"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:padding="5dp"
+                        android:paddingTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text = "উইন্ডোজ ১০ এর ব্যবহারকারীর সংখ্যা ১০০ কোটিতে নেওয়ার লক্ষ্যে কাজ করছে মাইক্রসফট। প্রতিষ্ঠানটি জানায়, ২০১৫ সালে বাজারে আসা অপারেটিং সিস্টেমটি গত ১২ মাসেই ব্যবহারকারীর সংখ্যা সবচেয়ে বেশী হারে বাড়িয়ে এখন ৯০ কোটিতে পৌঁছেছে।"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/news1"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="32dp"
+                            android:layout_margin="5dp"
+                            android:background="#FFFF"
+                            android:text="Read More"
+                            android:textAllCaps="false"
+
+                            android:textColor="#04d8ef" />
+
+                        <Button
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="33dp"
+                            android:layout_margin="5dp"
+                            android:background="#FFFF"
+                            android:text="Share"
+                            android:textAllCaps="false"
+                            android:textColor="#04d8ef" />
+
+                        <Button
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="80dp"
+                            android:background="@drawable/ic_favorite_heart_button"
+                            android:text=""
+                            android:textAllCaps="false"
+                            android:textColor="#FFFF" />
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image3" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#6001000a"
+                    android:padding="10dp"
+                    android:text="শত কোটির পথে উইন্ডোজ ১০"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:drawablePadding="10dp"
+                android:text="29 Sept, 2019"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text = "রাশিয়ার ইন্টারনেট জায়ান্ট ইয়ানডেক্স নিজস্ব ভিডিও স্ট্রিমিং সাইট চালু করতে যাচ্ছে। শুক্রবার রয়টার্সের প্রতিবেদনে বলা হয়, এটি ইউটিউবের সাথে প্রতিদ্বন্দ্বীতা করতে সক্ষম বলে দাবি করেছে ইয়ানডেক্স।"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/news2"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:text="Read More"
+                    android:textAllCaps="false"
+
+                    android:textColor="#04d8ef" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="33dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:text="Share"
+                    android:textAllCaps="false"
+                    android:textColor="#04d8ef" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="@drawable/ic_favorite_heart_button"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

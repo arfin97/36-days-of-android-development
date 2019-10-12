@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/ivNewsImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="240dp"
+                            android:src="@drawable/image2"
+                            android:scaleType="fitXY"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tvNewsTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ইউটিউবের প্রতিদ্বন্দ্বী আনছে রাশিয়া"
+                            android:textSize="20sp"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:background="#6001000a"
+                            android:layout_alignParentBottom="true"
+                            />
+
+
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/tvNewsDetail"
+                        android:padding="15dp"
+                        android:paddingTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ইন্টারনেট জগতে বর্তমানে চাহিদার উপর ভিত্তি করে ইউটিউব এবং ফেইসবুক উভয়েরই ভিডিও স্ট্রিমিং সেবা রয়েছে।
+
+চীনের বেইজিংভিত্তিক প্রতিষ্ঠান বাইটড্যান্সের অনলাইন ভিডিও সেবা টোটিয়াও-এর পথ ধরেই ইয়ানডেক্স এগোচ্ছে বলে উল্লেখ করা হয়েছে প্রতিবেদনে।
+
+ইয়ান্ডেক্স জেন বিভিন্ন বিষয় ধরে ভিডিও কনটেন্ট শ্রেণিবিন্যাস করে থাকে। এই সাইটে ১৫ মিনিট পর্যন্ত দৈর্ঘ্যের ভিডিও আপলোড করতে পারেন ব্লাগাররা। সূত্র জানায়, পরীক্ষামূলক অবস্থাতেই সাইটিট ইতোমধ্যেই বিভিন্ন রকম কন্টেন্ট দিয়ে পূর্ণ হয়ে গিয়েছে। প্রতিদিন এর ভিউ হচ্ছে ২ কোটিরও বেশী এবং ব্যবহারকারী রয়েছে এক কোটি দশ লাখের উপরে। এই আগস্টে ইয়ান্ডেক্স জেন এর দর্শক পাঁচ কোটির কাছে পৌছে গেছে।
+
+বর্তমানে রাশিয়ার প্রায় অর্ধেক জনগনই ইয়ান্ডেক্সের সার্চ ইঞ্জিন ব্যবহার করছে। তবে ডিলয়েটের সম্প্রতি একটি অনুসন্ধানে জানা গিয়েছে সাইটটি এখনও রাশিয়ায় তৃতীয় অবস্থানে রয়েছে যেখানে প্রথম অবস্থানে রয়েছে ইউটিউব এবং পরবর্তীতে রয়েছে সেই দেশের বৃতত্তম সোশাল নেটওয়ার্ক সাইট ভিকনটাক।"
+                        />
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
